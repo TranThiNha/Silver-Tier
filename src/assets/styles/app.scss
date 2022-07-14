@@ -1,0 +1,11 @@
+@import './variables/color';
+@import './variables/font';
+
+@import './containers/tier-detail';
+
+@import './components/promotion-item.scss';
+
+body,
+html {
+  font-family: 'Hellix' !important;
+}

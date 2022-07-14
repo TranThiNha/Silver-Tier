@@ -1,0 +1,61 @@
+$baseUrl: '../fonts/Hellix/';
+
+@font-face {
+  font-family: 'Hellix';
+  src: url($baseUrl + 'Hellix-Regular.eot');
+  src: local($baseUrl + 'Hellix Regular'), local('Hellix-Regular'),
+    url($baseUrl + 'Hellix-Regular.eot?#iefix') format('embedded-opentype'),
+    url($baseUrl + 'Hellix-Regular.woff2') format('woff2'),
+    url($baseUrl + 'Hellix-Regular.woff') format('woff'),
+    url($baseUrl + 'Hellix-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url($baseUrl + 'Hellix-SemiBold.eot');
+  src: local($baseUrl + 'Hellix SemiBold'), local('Hellix-SemiBold'),
+    url($baseUrl + 'Hellix-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url($baseUrl + 'Hellix-SemiBold.woff2') format('woff2'),
+    url($baseUrl + 'Hellix-SemiBold.woff') format('woff'),
+    url($baseUrl + 'Hellix-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url($baseUrl + 'Hellix-Light.eot');
+  src: local($baseUrl + 'Hellix Light'), local('Hellix-Light'),
+    url($baseUrl + 'Hellix-Light.eot?#iefix') format('embedded-opentype'),
+    url($baseUrl + 'Hellix-Light.woff2') format('woff2'),
+    url($baseUrl + 'Hellix-Light.woff') format('woff'),
+    url($baseUrl + 'Hellix-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url($baseUrl + 'Hellix-Bold.eot');
+  src: local($baseUrl + 'Hellix Bold'), local('Hellix-Bold'),
+    url($baseUrl + 'Hellix-Bold.eot?#iefix') format('embedded-opentype'),
+    url($baseUrl + 'Hellix-Bold.woff2') format('woff2'),
+    url($baseUrl + 'Hellix-Bold.woff') format('woff'),
+    url($baseUrl + 'Hellix-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hellix';
+  src: url($baseUrl + 'Hellix-Medium.eot');
+  src: local($baseUrl + 'Hellix Medium'), local('Hellix-Medium'),
+    url($baseUrl + 'Hellix-Medium.eot?#iefix') format('embedded-opentype'),
+    url($baseUrl + 'Hellix-Medium.woff2') format('woff2'),
+    url($baseUrl + 'Hellix-Medium.woff') format('woff'),
+    url($baseUrl + 'Hellix-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
