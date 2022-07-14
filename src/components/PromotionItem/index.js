@@ -1,9 +1,15 @@
 import React from 'react';
 
 const PromotionItem = (props) => {
+  const { data } = props;
+
   return (
     <div className='card promotion-item' key={Date.now()}>
-      {/* <img src='...' className='card-img-top' alt='...' /> */}
+      <img
+        src={require(`assets/media/${data.thumbnail}.svg`)}
+        className='card-img-top'
+        alt='...'
+      />
       <div className='card-body'>
         <h5 className='card-title'>Card title</h5>
         <p className='card-text'>
