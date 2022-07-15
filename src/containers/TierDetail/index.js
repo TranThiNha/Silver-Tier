@@ -1,11 +1,15 @@
 import React from 'react';
-import { PromotionItem } from 'components';
+import { PromotionItem, NavigationBar } from 'components';
 import { SAMPLE } from './sample';
+import bgImage from 'assets/media/background-coin.png';
 
 const TierDetail = (props) => {
   const renderAvailableCoin = () => {
     return (
-      <div className='available-coin'>
+      <div
+        className='available-coin'
+        style={{ backgroundImage: `url(${bgImage})` }}
+      >
         <div className='box-name'>Available Coin balance</div>
         <div className='value-coin'>340</div>
 
@@ -65,6 +69,8 @@ const TierDetail = (props) => {
           </div>
         </div>
       ))}
+
+      <NavigationBar />
     </div>
   );
 };

@@ -45,7 +45,6 @@
     border-radius: 8px;
     margin: 0px 16px;
     background-color: $cl-white;
-    background-image: url('assets/media/background-coin.png');
     background-size: cover;
     position: absolute;
     top: 220px;
@@ -135,6 +134,10 @@
       display: flex;
       overflow-x: scroll;
       column-gap: 24px;
+    }
+    
+    .list-promotion::-webkit-scrollbar {
+      display: none;
     }
   }
 }

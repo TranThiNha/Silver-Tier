@@ -11,10 +11,18 @@ const PromotionItem = (props) => {
         alt='...'
       />
       <div className='card-body'>
-        <h5 className='card-title'>Card title</h5>
-        <p className='card-text'>
-          Some quick example up the bulk of the card's content.
-        </p>
+        <h5
+          className={`card-title ${
+            data.status === 'higher' ? 'higher-coins' : ''
+          }`}
+        >
+          {data.status === 'higher' && (
+            <img src={require(`assets/media/higher.svg`)} />
+          )}
+
+          <span>{data.price} Coins</span>
+        </h5>
+        <p className='card-text'>{data.description}</p>
       </div>
     </div>
   );
