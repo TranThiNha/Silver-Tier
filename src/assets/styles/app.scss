@@ -8,5 +8,11 @@
 
 body,
 html {
-  font-family: 'Hellix' !important;
+  font-family: 'Hellix';
+
+  span,
+  div,
+  a {
+    font-family: 'Hellix';
+  }
 }
